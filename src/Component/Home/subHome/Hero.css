@@ -1,0 +1,44 @@
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro{
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.hero-work{
+    font-family: 'poppins';
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-info{
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    background-color: hsl(142, 69%, 61%);
+    border-radius: 5px;
+    
+}
+
+.hero-contact a{
+    text-decoration: none;
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}

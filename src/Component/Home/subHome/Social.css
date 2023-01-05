@@ -1,0 +1,20 @@
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.social-icon{
+   width: 25px;
+   height: 25px;
+   margin: 1rem;
+   color: hsl(142, 49%, 49%);
+}
+
+.line{
+    width: 3px;
+    background-color:hsl(142, 49%, 49%);
+    height: 40%;
+}

@@ -1,0 +1,40 @@
+:root{
+    --primary-color: hsl(142, 69%, 61%);
+}
+.header{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.logo{
+    font-weight: 700;
+    color: #222222;
+    cursor: pointer;
+}
+
+.nav ul li{
+    padding: .4rem .7rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color .3s linear;
+}
+ .nav ul li:hover{
+    color: var(--primary-color);
+ }
+
+
+#darkmode{
+    font-size: large;
+    width: 40px;
+}
