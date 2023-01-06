@@ -3,6 +3,10 @@
 }
 .header{
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
 }
 
 .nav{
@@ -19,7 +23,6 @@
 
 .logo{
     font-weight: 700;
-    color: #222222;
     cursor: pointer;
 }
 
@@ -29,8 +32,12 @@
     cursor: pointer;
     transition: color .3s linear;
 }
- .nav ul li:hover{
+.nav ul li:hover{
     color: var(--primary-color);
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
  }
 
 

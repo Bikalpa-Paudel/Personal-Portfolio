@@ -10,7 +10,7 @@
     font-weight: 700;
     font-size: 3rem;
     position: relative;
-    animation: intro 1s ease-in;
+    animation: intro 1s linear;
 }
 @keyframes intro {
     from{
@@ -30,7 +30,7 @@
     font-size: 1rem;
     margin-bottom: 1rem;
     position: relative;
-    animation: hero-work 1.3s ease-in;
+    animation: hero-work 1.3s linear;
 }
 
 @keyframes hero-work {
@@ -52,7 +52,7 @@
     font-size: 1rem;
     margin-bottom: 1rem;
     position: relative;
-    animation: hero-info 1.6s ease-in;
+    animation: hero-info 1.6s linear;
 }
 
 @keyframes hero-info {
@@ -74,11 +74,16 @@
     justify-content: center;
     height: 50px;
     width: 150px;
-    background-color: hsl(142, 69%, 61%);
+    background-color: hsl(142, 49%, 49%);
     border-radius: 5px;
     position: relative;
-    animation: hero-contact 1.9s ease-in;
+    transition: background-color .2s linear;
+    animation: hero-contact 1.9s linear;
+    cursor: pointer;
     
+}
+.hero-contact:hover{
+    background-color: hsl(142, 51%, 33%);
 }
 @keyframes hero-contact {
     from{
@@ -100,6 +105,7 @@
     font-size: 1rem;
     color: #fff;
 }
-
-/* ====animation====== */
+.hero-contact a .phone{
+    color: #fff;
+}
 

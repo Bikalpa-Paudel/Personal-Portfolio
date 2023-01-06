@@ -6,17 +6,4 @@
 
 #myimg-svg{
     position: relative;
-    animation: imageFloat 2s ease-in;
-}
-@keyframes imageFloat {
-    0%{
-        opacity: .2;
-    }
-    50%{
-        opacity: .6;
-    }
-    to{
-        top: 0px;
-        opacity: 1;
-    }
 }
