@@ -32,7 +32,7 @@
     cursor: pointer;
     transition: color .3s linear;
 }
-.nav ul li:hover{
+.nav ul li a:hover{
     color: var(--primary-color);
 }
 .nav ul li a{
