@@ -1,0 +1,63 @@
+.about-sub-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-img{
+    height: 60vh;
+    width: 40%;
+}
+
+.about-detail{
+    max-width: 50%;
+    height: 50vh;
+    font-family: 'poppins';
+}
+.about-detail-info{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.about-detail-job{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.about-detail-job div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-weight: 300;
+}
+
+.about-job-icon{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    background-color: hsl(142, 60%, 49%);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2.5rem;
+    transition: background-color .2s linear;
+}
+.cv:hover{
+    background-color: hsl(142, 51%, 33%);
+}
+.cv a{
+    text-decoration: none;
+    color: white;
+}
