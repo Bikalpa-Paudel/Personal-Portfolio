@@ -1,18 +1,25 @@
 import "./Navbar.css"
-import {BiMoon} from "react-icons/bi"
+import {BiMoon, BiSun} from "react-icons/bi"
 
-export default function Navbar(){
+export default function Navbar(props){
+
+    const navBackground = {
+        backgroundColor : (props.darkMode ? "#131313" : "#FFFFFF")
+    }
+    const linkColor={
+        color : (props.darkMode ? "white" : "black")     
+    }
     return(
-        <header className="header">
+        <header className="header" style={navBackground}>
             <nav className="nav">
                 <div className="logo">Bikalpa-Paudel</div>
                 <ul>
-                    <li><a href="#main">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#project">Project</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li title="Enable Dark-Mode" id="darkmode"><BiMoon /></li>
+                    <li><a style={linkColor} href="#main">Home</a></li>
+                    <li><a style={linkColor} href="#about">About</a></li>
+                    <li><a style={linkColor} href="#experience">Experience</a></li>
+                    <li><a style={linkColor} href="#project">Project</a></li>
+                    <li><a style={linkColor} href="#contact">Contact</a></li>
+                    <li onClick={props.colorToggle} title={props.darkMode ? "Enable Light Mode" : "Enable Dark Mode"} id="darkmode">{!props.darkMode ? <BiMoon /> : <BiSun />}</li>
                 </ul>
             </nav>
         </header>

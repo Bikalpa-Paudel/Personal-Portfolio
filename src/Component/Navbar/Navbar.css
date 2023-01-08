@@ -3,7 +3,6 @@
 }
 .header{
     font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
     position: sticky;
     top: 0px;
     z-index: 99;
@@ -34,7 +33,6 @@
 }
 .nav ul li a{
     text-decoration: none;
-    color: black;
     transition: color .2s linear;
  }
 
