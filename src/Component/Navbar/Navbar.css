@@ -32,13 +32,15 @@
     cursor: pointer;
     transition: color .3s linear;
 }
-.nav ul li a:hover{
-    color: var(--primary-color);
-}
 .nav ul li a{
     text-decoration: none;
     color: black;
+    transition: color .2s linear;
  }
+
+.nav ul li a:hover{
+    color: var(--primary-color);
+}
 
 
 #darkmode{
