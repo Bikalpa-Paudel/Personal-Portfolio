@@ -1,0 +1,7 @@
+.project-demo{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    align-self: center;
+}
