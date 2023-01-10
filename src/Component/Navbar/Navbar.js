@@ -2,12 +2,11 @@ import "./Navbar.css"
 import {BiMoon, BiSun} from "react-icons/bi"
 
 export default function Navbar(props){
-
     const navBackground = {
-        backgroundColor : (props.darkMode ? "#131313" : "#FFFFFF")
+        backgroundColor : (props.darkMode ? "#131313"  : "#FFFFFF")
     }
     const linkColor={
-        color : (props.darkMode ? "white" : "black")     
+        color : (props.darkMode ? "white" : "black") 
     }
     return(
         <header className="header" style={navBackground}>

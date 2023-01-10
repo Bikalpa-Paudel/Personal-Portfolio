@@ -28,4 +28,5 @@
     grid-auto-flow: wrap;
     place-content: center;
     gap: 1rem 4rem;
+    perspective: 500px;
 }

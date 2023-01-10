@@ -33,7 +33,6 @@
 }
 .nav ul li a{
     text-decoration: none;
-    transition: color .2s linear;
  }
 
 .nav ul li a:hover{
